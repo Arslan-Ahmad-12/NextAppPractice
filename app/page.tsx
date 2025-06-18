@@ -9,9 +9,10 @@ export default function Home() {
             Next.js Rendering Demo by Arslan
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Explore the differences between Server-Side Rendering (SSR) and Client-Side Rendering (CSR) 
-            with these interactive blog posts featuring Arslan's introduction.
-<br />
+            Explore the differences between Server-Side Rendering (SSR) and Client-Side Rendering (CSR)
+            with these interactive blog posts featuring Arslan&apos;s introduction.
+           </p>
+          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             So there are two blog post below, when you click on SSR one content will be created by server and shown to the client without waiting for javascript to load,
             and when you click on CSR one, content will be created by client (After javascript loads content) and shown to the client. like first wait for the content to get loaded form javascript then show
           </p>
@@ -26,7 +27,7 @@ export default function Home() {
             </div>
             <div className="p-6">
               <p className="text-gray-600 mb-4">
-                Experience fast loading times and better SEO with server-side rendered content. 
+                Experience fast loading times and better SEO with server-side rendered content.
                 Perfect for content-heavy pages and search engine optimization.
               </p>
               <ul className="text-sm text-gray-600 mb-6 space-y-1">
@@ -35,8 +36,8 @@ export default function Home() {
                 <li>✓ Better for low-end devices</li>
                 <li>✓ Improved Core Web Vitals</li>
               </ul>
-              <Link 
-                href="/ssr-blog" 
+              <Link
+                href="/ssr-blog"
                 className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors duration-200"
               >
                 View SSR Blog →
@@ -52,7 +53,7 @@ export default function Home() {
             </div>
             <div className="p-6">
               <p className="text-gray-600 mb-4">
-                Enjoy highly interactive user interfaces with dynamic content updates. 
+                Enjoy highly interactive user interfaces with dynamic content updates.
                 Ideal for applications requiring real-time features and user interactions.
               </p>
               <ul className="text-sm text-gray-600 mb-6 space-y-1">
@@ -61,8 +62,8 @@ export default function Home() {
                 <li>✓ Real-time features</li>
                 <li>✓ Rich user experiences</li>
               </ul>
-              <Link 
-                href="/csr-blog" 
+              <Link
+                href="/csr-blog"
                 className="inline-block bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors duration-200"
               >
                 View CSR Blog →
