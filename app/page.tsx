@@ -6,7 +6,7 @@ export default function Home() {
       <div className="container mx-auto px-4 py-16">
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Next.js Rendering Demo by Arslan
+            Next.js Rendering Demo by Arslan.
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Explore the differences between Server-Side Rendering (SSR) and Client-Side Rendering (CSR)
